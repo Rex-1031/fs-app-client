@@ -17,6 +17,7 @@ function App() {
   
   return (
     <div >
+      <h1>Post App</h1>
       <Posts setId={setId} />
       <Form setId={setId} getId={id} />
     </div>
